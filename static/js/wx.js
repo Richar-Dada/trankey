@@ -1,5 +1,5 @@
 var arr_wx = [
-['zxcn38',''],['zxcn38',''],['zxcn38',''],['zxcn38',''],['zxcn38',''],['zxcn38','']
+['zxcn38','./static/picture/er.jpg'],['vcv363','./static/picture/er2.jpg'],['zygf19','./static/picture/er3.jpg'],['zxcn38','./static/picture/er.jpg'],['vcv363','./static/picture/er2.jpg'],['zygf19','./static/picture/er3.jpg']
 ]
 
 var wx_index = Math.floor((Math.random()*arr_wx.length));
@@ -8,6 +8,6 @@ var wx_index = Math.floor((Math.random()*arr_wx.length));
 
 var stxlwx = arr_wx[wx_index];
 var wx = ""+arr_wx[wx_index];
-var img = arr_wx[wx_index]+ ".jpg";
+var img = arr_wx[wx_index][1];
 var wx_img = "<img width='168' height='168' src='" + img + "'>";
 
