@@ -1,5 +1,5 @@
 var arr_wx = [
-['zxcn38','./static/picture/er.jpg'],['vcv363','./static/picture/er2.jpg'],['zygf19','./static/picture/er3.jpg'],['avip066','./static/picture/er4.jpg'],['zygf67','./static/picture/er5.jpg'],['zxcn10','./static/picture/er6.jpg']
+['zxcn38','./static/picture/er.jpg'],['vcv363','./static/picture/er2.jpg'],['avip066','./static/picture/er4.jpg'],['zxcn10','./static/picture/er6.jpg']
 ]
 
 var wx_index = Math.floor((Math.random()*arr_wx.length));
